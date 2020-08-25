@@ -1,0 +1,96 @@
+html{box-sizing: border-box}
+body{
+    background-image:linear-gradient(to right, rgba(245, 246, 252, 0.52), rgba(233, 19, 83, 0.73)),url('https://image.freepik.com/free-vector/abstract-creative-pink-wave-banner-white-background_1035-18537.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 300px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  
+  border: none;
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+ 
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #204051;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  outline: none;
+  border-radius: 20px;
+}
+button:active{
+    transform: scale(0.9);
+}
+
+button:hover {
+  filter: brightness(95%);
+ 
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #204051;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  
+  width: 100px;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+.loginbtn{
+    width: 206px;
+}
+/* Clear floats 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 500px) {
+  .cancelbtn, .signupbtn {
+    width: 280px;
+  }
+  input[type=text], input[type=password] {
+      width: 240px;
+      margin: 10px 10px;
+  }
+  .container{
+      margin: 20px 20px;
+
+
+  }
+  
+}
